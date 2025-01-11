@@ -338,3 +338,105 @@ border-radius: 24px;
     color: white;
 }
 
+.donate-section{
+    margin: auto;
+    width: 70rem;
+    margin-bottom: 10px;
+}
+
+.donate-text{
+    margin: 5px;
+    margin-top: 50px;
+}
+
+.donate-text h1{
+    font-family: Fira Sans;
+    font-weight:bolder;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.donate-text p{
+    font-family: Fira Sans;
+    font-weight: 900;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+}
+
+.first_card{
+    width: 150px;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+}
+
+.first_card h1{
+    font-family: Fira Sans;
+    font-weight:bolder;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color:rgba(14, 14, 14, 0.8);
+}
+
+.donate_card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.first_card:hover{
+    background-color: rgba(84, 144, 245, 0.5);
+}
+
+.amount-section{
+    margin: auto;
+    width: 70rem;
+    margin-bottom: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+form input{
+    width: 70%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+}
+
+form button{
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(0, 106, 80);
+    background-color: rgb(0, 106, 80);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+  
+}
+
+form button:hover{
+    background-color: rgb(202, 5, 5);
+    color: white;
+}
