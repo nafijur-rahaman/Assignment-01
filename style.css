@@ -486,6 +486,7 @@ li {
     justify-content: center;
     background-color: rgb(255, 255, 255);
     border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
 }
 
 .first_card h1 {
@@ -503,6 +504,7 @@ li {
     align-items: center;
     gap: 30px;
     margin-bottom: 20px;
+   
 }
 
 .first_card:hover {
