@@ -59,7 +59,7 @@ li {
 .hero {
     margin: auto;
     width: 70rem;
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,7 +127,7 @@ li {
 .vision-text h1 {
     font-family: Fira Sans;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 10px;
 }
 
@@ -512,7 +512,7 @@ li {
 .amount-section {
     margin: auto;
     width: 70rem;
-    margin-bottom: 10px;
+    margin-bottom: 70px;
 }
 
 .amount-section>form {
@@ -526,7 +526,7 @@ li {
 
 .amount-section>form>input {
     width: 70%;
-    padding: 10px;
+    padding: 15px;
     margin: auto;
     margin-bottom: 10px;
     border-radius: 8px;
