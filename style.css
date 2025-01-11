@@ -401,7 +401,7 @@ border-radius: 24px;
     width: 70rem;
     margin-bottom: 10px;
 }
-form{
+.amount-section>form{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -410,7 +410,7 @@ form{
     margin-top: 50px;
 }
 
-form input{
+.amount-section>form> input{
     width: 70%;
     padding: 10px;
     margin: auto;
@@ -421,7 +421,7 @@ form input{
     text-align: center;
 }
 
-form button{
+.amount-section>form> button{
     width: 150px;
     height: 50px;
     padding: 10px;
@@ -436,7 +436,76 @@ form button{
   
 }
 
-form button:hover{
+.amount-section>form> button:hover{
+    background-color: rgb(202, 5, 5);
+    color: white;
+}
+
+.newsletter{
+    height: 300px;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 24px;
+
+background: rgb(198, 228, 214);
+}
+
+.newsletter p{
+    font-family: Fira Sans;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+}
+.newsletter-text{
+    margin: 5px;
+    margin-top: 50px;
+    text-align: center;
+}
+.newsletter-form{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.newsletter-form form{
+   display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 50px;
+    
+}
+
+.newsletter-form input{
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 106, 80);
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    
+}
+
+
+.newsletter-form button{
+    
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bolder;
+  
+}
+
+.newsletter-form button:hover{
     background-color: rgb(202, 5, 5);
     color: white;
 }
