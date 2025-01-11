@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 10px 120px 0px 120px;
+    background: rgb(245, 245, 245);
+}
+a{
+    text-decoration: none;
+    color: black;
+   
+}
+li{
+    list-style-type: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 900px;
+}
+.btn1{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #006A50;
+    
+}
+.logo{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #006A50;
+}
+
+.btn1 a{
+    color: #006A50;
+    font-weight:200;
+}
+
+.hero{
+    margin: auto;
+    width: 70rem;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 50px; */
+    height: 500px;
+    border-radius: 15px;
+    background-color: rgb(198, 228, 214);;
+
+}
+.hero-text{
+   padding: 30px;
+   width: 50%;
+}
+.hero-text p{
+  
+    font-weight: 900;
+    opacity: 0.7; 
+}
+.hero-text h1{
+    font-family: Fira Sans;
+    font-weight:bolder;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero-image img{
+   width: 27rem;
+   padding: 30px;
+    
+}
+.btn2{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+    background-color: rgb(0, 106, 80);
+    color: white;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    background-color: rgb(202, 5, 5);
+    color: white;
+
+}
